@@ -21,7 +21,6 @@ Users should choose an appropriate LLM based on the task characteristics. We cat
 
 **Figure 3.** Considerations for choosing an LLM.
 
-
 A diversity of LLMs have been evaluated for their medical capability. Below, we summarize several popular LLMs.
 
 **Table 1.** Characteristics of different LLMs, sorted by the best reported MedQA-USMLE (4 options) score. T: text; I: image; V: video; A: audio.
@@ -45,10 +44,17 @@ Once a user has formulated a task and selected an appropriate LLM, they must car
 
 **Figure 4.** An overview of prompt engineering and fine-tuning techniques.
 
-
 Many techniques have been used within prompt engineering. Common methods includes few-shot learning, tool learning, chain-of-thought prompting, retrieval-augmented generation, and fine tuning.
 
 **Table 2.** Characteristics of different methods to use LLMs.
+
+| Method                      | Requirements                        | Pros                                                              | Cons                                       | Examples                               |
+|-----------------------------|--------------------------------------|-------------------------------------------------------------------|--------------------------------------------|----------------------------------------|
+| Few-shot learning            | Several exemplars                   | - Dealing with edge cases<br/>- Specifying expected styles         | Exemplars might introduce biases           | MedPrompt                             |
+| Tool learning                | Application programming interfaces  | Providing domain functionalities                                  | Relies on the curation of tools            | GeneGPT, EHRAgent, ChemCrow            |
+| Chain-of-thought prompting   | Additional prompt text              | - Providing explanations<br/>- Improving performance              | Hard for parsing (mitigated by structured output) | MedPrompt                             |
+| Retrieval-augmented generation | A knowledge base or document collection | - Providing up-to-date knowledge<br/>- Reducing hallucinations     | Depends on the quality of the retrieved content | Almanac, MedRAG                       |
+| Fine-tuning                  | Data annotations and compute        | - Improving performance<br/>- Shorten the prompt                  | Costly and resource-intensive              | MEDITRON, PMC-LLaMA, DRG-LLaMA        |
 
 ## Case studies
 
