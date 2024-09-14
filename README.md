@@ -71,8 +71,13 @@ Before exploring the example scripts, we also suggest reviewing the following st
 | Zhang et al.     | Multi-modality     | BiomedGPT, BiomedGPT-S, BiomedGPT-M, BiomedGPT-B, Med-PaLM                              | Fine-tuning                                | Accuracy, F1-score, weighted F1, F1-macro, ROUGE-L, METEOR, CIDEr           |
 
 ## Configuration
-To execute this example code in a Google Colab environment or within your own terminal, one must first set up the OpenAI API either directly through OpenAI or through Microsoft Azure. Here we use Microsoft Azure because it is compliant with Health Insurance Portability and Accountability Act (HIPAA). Ensure that an appropriate PROJECT_HOME path has been set, and please set the enviroment variables accordingly:
+To execute this example code in a Google Colab environment or within your own terminal, one must first set up the OpenAI Application Programming Interface (API) either directly through OpenAI or through Microsoft Azure. Here we use Microsoft Azure because it is compliant with Health Insurance Portability and Accountability Act (HIPAA). Ensure that an appropriate PROJECT_HOME path has been set, and please set the enviroment variables accordingly:
 ```python
 export OPENAI_ENDPOINT=YOUR_AZURE_OPENAI_ENDPOINT_URL
 export OPENAI_API_KEY=YOUR_AZURE_OPENAI_API_KEY
 ```
+
+## Setting up the openAI API
+See the notebook below to learn about common openAI GPT model practices and API calling.
+https://colab.research.google.com/drive/1nk4wkWL0x4RQ6-ti2JWHYusnFEn-e16t?usp=sharing
+
