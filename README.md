@@ -77,7 +77,7 @@ export OPENAI_ENDPOINT=YOUR_AZURE_OPENAI_ENDPOINT_URL
 export OPENAI_API_KEY=YOUR_AZURE_OPENAI_API_KEY
 ```
 
-## Setting up the openAI API
+## Setting up the OpenAI API
 See the notebook below to learn about common openAI GPT model practices and API calling.
 https://colab.research.google.com/drive/1nk4wkWL0x4RQ6-ti2JWHYusnFEn-e16t?usp=sharing
 
