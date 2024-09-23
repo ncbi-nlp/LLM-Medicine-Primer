@@ -64,11 +64,11 @@ Before exploring the example scripts, we also suggest reviewing the following st
 
 | Study            | Task              | LLM(s)                                                                                  | Technique                                  | Evaluation                                                                 |
 |------------------|-------------------|-----------------------------------------------------------------------------------------|--------------------------------------------|----------------------------------------------------------------------------|
-| Van Veen et al.  | Summarization      | FLAN-T5, FLAN-UL2, Alpaca, Med-Alpaca, Vicuna, Llama-2, GPT-3.5, GPT-4                   | Few-shot learning, fine-tuning             | BLEU, ROUGE-L, BERTScore, MEDCON, Clinical reader study                    |
-| Singhal et al.   | Knowledge and Reasoning | PaLM, Flan-PaLM, Med-PaLM                                                               | Few-shot learning, chain-of-thought prompting, fine-tuning | Clinician review, lay user assessment, accuracy                             |
-| Wang et al.      | Structurization    | Llama, ClinicalBERT                                                                     | Fine-tuning                                | AUC, F1-score, accuracy, generalized cross-validation, error analysis case study |
-| Mirza et al.     | Translation        | GPT-4                                                                                   | Baseline prompting                         | Clinician review, legal expert review                                       |
-| Zhang et al.     | Multi-modality     | BiomedGPT, BiomedGPT-S, BiomedGPT-M, BiomedGPT-B, Med-PaLM                              | Fine-tuning                                | Accuracy, F1-score, weighted F1, F1-macro, ROUGE-L, METEOR, CIDEr           |
+| Van Veen et al.  | Summarization      | FLAN-T5, FLAN-UL2, Alpaca, Med-Alpaca, Vicuna, Llama-2, GPT-3.5, GPT-4                   | Few-shot learning, fine-tuning             | Quantitative metrics for summarization; Manual evaluation of clinical summarization                    |
+| Singhal et al.   | Knowledge and Reasoning | PaLM, Flan-PaLM                                                               | Few-shot learning, chain-of-thought prompting, fine-tuning | Accuracy in MedMCQA, MedQA (USMLE), and PubMedQA; Manual evaluation of clinical questions and answers; Lay user assessment                             |
+| Wang et al.      | Structurization    | Llama, ClinicalBERT                                                                     | Fine-tuning                                | Performance metrics for prediction of Diagnosis Related Groups; Manual analysis of prediction errors |
+| Mirza et al.     | Translation        | GPT-4                                                                                   | Baseline prompting                         | Manual evaluation of clinical translation by clinicians and legal experts                                       |
+| Zhang et al.     | Multi-modality     | BiomedGPT                              | Fine-tuning                                | Accuracy for image classification and vision QA; Quantitative metrics for summarization, text understanding, and image captioning           |
 
 ## Configuration
 To execute this example code in a Google Colab environment or within your own terminal, one must first set up the OpenAI Application Programming Interface (API) either directly through OpenAI or through Microsoft Azure. Here we use Microsoft Azure because it is compliant with Health Insurance Portability and Accountability Act (HIPAA). Ensure that an appropriate PROJECT_HOME path has been set, and please set the enviroment variables accordingly:
@@ -77,7 +77,7 @@ export OPENAI_ENDPOINT=YOUR_AZURE_OPENAI_ENDPOINT_URL
 export OPENAI_API_KEY=YOUR_AZURE_OPENAI_API_KEY
 ```
 
-## Setting up the OpenAI API
-See the notebook below to learn about common openAI GPT model practices and API calling.
+## Tutorial Code
+See the notebook below to learn about common openAI GPT model practices, API calling, tokenization, and prompt engineering.
 https://colab.research.google.com/drive/1nk4wkWL0x4RQ6-ti2JWHYusnFEn-e16t?usp=sharing
 
