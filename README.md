@@ -25,12 +25,14 @@ A diversity of LLMs have been evaluated for their medical capability. Below, we 
 
 **Table 1.** Characteristics of different LLMs, sorted by the best reported MedQA-USMLE (4 options) score. T: text; I: image; V: video; A: audio.
 
-| LLM        | Availability | Size         | Interface     | Modality     | Context        | MedQA       |
+| LLM        | Weights      | Size         | Interface     | Modality     | Context        | MedQA       |
 |------------|--------------|--------------|---------------|--------------|----------------|-------------|
-| Gemini 1.5 | Closed       | NA           | Web, API      | T, I, V, A   | 1M, 2M         | 91.1%       |
+| Med-Gemini | Closed       | NA           | Web, API      | T, I, V, A   | 1M, 2M         | 91.1%       |
 | GPT-4      | Closed       | NA           | Web, API      | T, I         | 8k, 32k, 128k  | 90.2%       |
+| Med-PaLM 2 | Closed       | NA           | API           | T            | 8k             | 86.5%       |
 | Llama 3    | Open         | 8B, 70B, 405B| API, Local    | T            | 8k             | 80.9%       |
 | GPT-3.5    | Closed       | NA           | Web, API      | T            | 4k, 16k        | 68.7%       |
+| Med-PaLM   | Closed       | 540B         | API           | T            | 8k             | 67.6%       |
 | Gemini 1.0 | Closed       | NA           | Web, API      | T, I, V      | 32k            | 67.0%       |
 | Mixtral    | Open         | 8x7B         | API, Local    | T            | 32k            | 64.1%       |
 | Mistral    | Open         | 7B           | API, Local    | T            | 8k, 32k        | 59.6%       |
