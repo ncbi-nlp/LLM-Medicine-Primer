@@ -79,10 +79,6 @@ export OPENAI_ENDPOINT=YOUR_AZURE_OPENAI_ENDPOINT_URL
 export OPENAI_API_KEY=YOUR_AZURE_OPENAI_API_KEY
 ```
 
-## Tutorial Code
-See the notebook below to learn about common openAI GPT model practices, API calling, tokenization, and prompt engineering.
-https://colab.research.google.com/drive/1nk4wkWL0x4RQ6-ti2JWHYusnFEn-e16t?usp=sharing
-
 ## Acknowledgements
 This work was supported by the Intramural Research Programs of the National Institutes of Health, National Library of Medicine.
 
