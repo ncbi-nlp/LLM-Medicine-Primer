@@ -1,13 +1,13 @@
 # LLM-Medicine-Primer
 
 ## Introduction
-This tutorial is an extension of concepts and recommendations outlined in the paper "A Systematic Approach to Utilizing Large Language Models in Medicine". Large language models (LLMs) represent a transformative class of artificial intelligence (AI) tools that can be used for a variety of tasks. Here, we provide example scripts related to a relevant healthcare task - clinical trial matching - and demonstrate important concepts including temperature, chain-of-thought prompting, few-shot learning, retrieval-augmented generation (RAG), and data preparation for fine-tuning.
+This tutorial is an extension of concepts and best practices outlined in the paper "Demystifying Large Language Models in Medicine: A Primer". Large language models (LLMs) represent a transformative class of artificial intelligence (AI) tools that can be used for a variety of tasks. Here, we provide example scripts related to a relevant healthcare task - clinical trial matching - and demonstrate important concepts including tokenization, temperature, chain-of-thought prompting, few-shot learning, retrieval-augmented generation (RAG), and data preparation for fine-tuning.
 
 ![Unable to load image](images/fig1.png)
 
 **Figure 1.** Overview of the proposed systematic approach to utilizing large language models in medicine.
 
-## Formulating the task
+## Task formulation
 When defining a medical need that may be addressed by an LLM, a user must first understand the core capabilities of LLMs. We classify LLM capabilities into five broad categories: structurization, summarization, translation, knowledge & reasoning, and multi-modal data processing.
 
 ![Unable to load image](images/fig2.png)
