@@ -72,23 +72,30 @@ Before exploring the example scripts, we also suggest reviewing the following st
 | Mirza et al.     | Translation        | GPT-4                                                                                   | Baseline prompting                         | Manual evaluation of clinical translation by clinicians and legal experts                                       |
 | Zhang et al.     | Multi-modality     | BiomedGPT                              | Fine-tuning                                | MCQ evaluation and manual evaluation of visual tasks           |
 
-## Configuration
-To execute this example code in a Google Colab environment or within your own terminal, one must first set up the OpenAI Application Programming Interface (API) either directly through OpenAI or through Microsoft Azure. Here we use Microsoft Azure because it is compliant with the Health Insurance Portability and Accountability Act (HIPAA). Ensure that an appropriate PROJECT_HOME path has been set, and please set the environment variables accordingly:
-```python
-export OPENAI_ENDPOINT=YOUR_AZURE_OPENAI_ENDPOINT_URL
-export OPENAI_API_KEY=YOUR_AZURE_OPENAI_API_KEY
-```
+## Hands-on Tutorials
 
-| Section | Title | Description | Link |
-|---------|-------|-------------|------|
-| 1 | LLMs for Medicine Primer Part 1 (Basics) |  | <a href="https://colab.research.google.com/drive/1pfuCShbkF6LQwTcxjiZpilhgQ5L4XYJt?usp=sharing" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open Tutorial In Colab"/></a> |
-| 2 | LLMs for Medicine Primer Part 2 (Chain-of-Thought Prompting) |  | <a href="https://colab.research.google.com/drive/1fsAOLOn-zbLUVaNmI0NGfbn6t1-Otckw?usp=sharing" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open Tutorial In Colab"/></a> |
-| 3 | LLMs for Medicine Primer Part 3 (Few-shot Learning) |  | <a href="https://colab.research.google.com/drive/1TqNaMV4uPEdDybWG11Z0KkXBiTIbZDCC?usp=sharing" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open Tutorial In Colab"/></a> |
-| 4 | LLMs for Medicine Primer Part 4 (RAG) |  | <a href="https://colab.research.google.com/drive/1FGu2gZGQYTNPz_UT7KPMYCO5byWOUTFY?usp=sharing" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open Tutorial In Colab"/></a> |
-| 5 | LLMs for Medicine Primer Part 5 (Fine-tuning) |  | <a href="https://colab.research.google.com/drive/1oFJOWmW3M_49zYeRalqNP4jQtIXbQgla?usp=sharing" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open Tutorial In Colab"/></a> |
+| Title | Content | Link |
+|-------|-------------|------|
+| LLMs for Medicine Primer Part 1 (Basics) | tokenization, single-turn Prompting, multi-turn prompting, temperature | <a href="https://colab.research.google.com/drive/1pfuCShbkF6LQwTcxjiZpilhgQ5L4XYJt?usp=sharing" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open Tutorial In Colab"/></a> |
+| LLMs for Medicine Primer Part 2 (Chain-of-Thought Prompting) | loading and processing the trial matching dataset, direct prompting, chain-of-thought prompting | <a href="https://colab.research.google.com/drive/1fsAOLOn-zbLUVaNmI0NGfbn6t1-Otckw?usp=sharing" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open Tutorial In Colab"/></a> |
+| LLMs for Medicine Primer Part 3 (Few-shot Learning) | loading and processing the trial matching dataset, direct prompting, few-shot prompting | <a href="https://colab.research.google.com/drive/1TqNaMV4uPEdDybWG11Z0KkXBiTIbZDCC?usp=sharing" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open Tutorial In Colab"/></a> |
+| LLMs for Medicine Primer Part 4 (RAG) | loading and processing the trial matching dataset, direct prompting, retrieval-augmented generation | <a href="https://colab.research.google.com/drive/1FGu2gZGQYTNPz_UT7KPMYCO5byWOUTFY?usp=sharing" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open Tutorial In Colab"/></a> |
+| LLMs for Medicine Primer Part 5 (Fine-tuning) | loading and processing the trial matching dataset, preparing the data for fine-tuning GPT models | <a href="https://colab.research.google.com/drive/1oFJOWmW3M_49zYeRalqNP4jQtIXbQgla?usp=sharing" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open Tutorial In Colab"/></a> |
 
 ## Acknowledgements
 This work was supported by the Intramural Research Programs of the National Institutes of Health, National Library of Medicine.
 
 ## Disclaimer
 This tutorial shows the results of research conducted in the Division of Intramural Research, NCBI/NLM. The information produced on this website is not intended for direct diagnostic use or medical decision-making without review and oversight by a clinical professional. Individuals should not change their health behavior solely on the basis of information produced on this website. NIH does not independently verify the validity or utility of the information produced by this tutorial. If you have questions about the information produced on this website, please see a health care professional. More information about NCBI's disclaimer policy is available.
+
+## Citation
+If you find our work useful, please cite it by:
+```bibtex
+@article{jin2024demystifying,
+  title={Demystifying large language models for medicine: A primer},
+  author={Jin, Qiao and Wan, Nicholas and Leaman, Robert and Tian, Shubo and Wang, Zhizheng and Yang, Yifan and Wang, Zifeng and Xiong, Guangzhi and Lai, Po-Ting and Zhu, Qingqing and others},
+  journal={ArXiv},
+  pages={arXiv--2410},
+  year={2024}
+}
+```
