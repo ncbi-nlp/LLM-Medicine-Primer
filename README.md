@@ -74,13 +74,13 @@ Before exploring the example scripts, we also suggest reviewing the following st
 
 ## Hands-on Tutorials
 
-| Title | Content | Link |
-|-------|-------------|------|
-| LLMs for Medicine Primer Part 1 (Basics) | tokenization, single-turn Prompting, multi-turn prompting, temperature | <a href="https://colab.research.google.com/drive/1pfuCShbkF6LQwTcxjiZpilhgQ5L4XYJt?usp=sharing" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open Tutorial In Colab"/></a> |
-| LLMs for Medicine Primer Part 2 (Chain-of-Thought Prompting) | loading and processing the trial matching dataset, direct prompting, chain-of-thought prompting | <a href="https://colab.research.google.com/drive/1fsAOLOn-zbLUVaNmI0NGfbn6t1-Otckw?usp=sharing" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open Tutorial In Colab"/></a> |
-| LLMs for Medicine Primer Part 3 (Few-shot Learning) | loading and processing the trial matching dataset, direct prompting, few-shot prompting | <a href="https://colab.research.google.com/drive/1TqNaMV4uPEdDybWG11Z0KkXBiTIbZDCC?usp=sharing" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open Tutorial In Colab"/></a> |
-| LLMs for Medicine Primer Part 4 (RAG) | loading and processing the trial matching dataset, direct prompting, retrieval-augmented generation | <a href="https://colab.research.google.com/drive/1FGu2gZGQYTNPz_UT7KPMYCO5byWOUTFY?usp=sharing" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open Tutorial In Colab"/></a> |
-| LLMs for Medicine Primer Part 5 (Fine-tuning) | loading and processing the trial matching dataset, preparing the data for fine-tuning GPT models | <a href="https://colab.research.google.com/drive/1oFJOWmW3M_49zYeRalqNP4jQtIXbQgla?usp=sharing" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open Tutorial In Colab"/></a> |
+| Colab Link | Title | Content |
+|-------|-------|-------------|
+| <a href="https://colab.research.google.com/drive/1pfuCShbkF6LQwTcxjiZpilhgQ5L4XYJt?usp=sharing" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open Tutorial In Colab"/></a> | LLM Basics | Tokenization, single-turn Prompting, multi-turn prompting, temperature |
+| <a href="https://colab.research.google.com/drive/1fsAOLOn-zbLUVaNmI0NGfbn6t1-Otckw?usp=sharing" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open Tutorial In Colab"/></a> | Chain-of-Thought | Loading and processing the trial matching dataset, direct prompting baseline, chain-of-thought prompting |
+| <a href="https://colab.research.google.com/drive/1TqNaMV4uPEdDybWG11Z0KkXBiTIbZDCC?usp=sharing" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open Tutorial In Colab"/></a> | Few-shot Learning | Loading and processing the trial matching dataset with few-shot demonstration selection, direct prompting baseline, few-shot prompting |
+| <a href="https://colab.research.google.com/drive/1FGu2gZGQYTNPz_UT7KPMYCO5byWOUTFY?usp=sharing" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open Tutorial In Colab"/></a> | RAG| Loading and processing the trial matching dataset, direct prompting baseline, retrieval-augmented generation with PubMed API |
+| <a href="https://colab.research.google.com/drive/1oFJOWmW3M_49zYeRalqNP4jQtIXbQgla?usp=sharing" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open Tutorial In Colab"/></a> | Fine-tuning | Loading and processing the trial matching dataset, preparing the data for fine-tuning GPT models |
 
 ## Acknowledgements
 This work was supported by the Intramural Research Programs of the National Institutes of Health, National Library of Medicine.
