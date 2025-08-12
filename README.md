@@ -3,21 +3,21 @@
 ## Introduction
 This tutorial is an extension of concepts and best practices outlined in the paper "Demystifying Large Language Models for Medicine: A Primer". Large language models (LLMs) represent a transformative class of artificial intelligence (AI) tools that can be used for a variety of tasks. Here, we provide example scripts related to a relevant healthcare task - clinical trial matching - and demonstrate important concepts including tokenization, temperature, chain-of-thought prompting, few-shot learning, retrieval-augmented generation (RAG), and data preparation for fine-tuning.
 
-![Unable to load image](images/fig1.png)
+<p align="center"><img src="images/fig1.png" alt="Overview" width="600"></p>
 
 **Figure 1.** Overview of the proposed systematic approach to utilizing large language models in medicine.
 
 ## Task formulation
 When defining a medical need that may be addressed by an LLM, a user must first understand the core capabilities of LLMs. We classify LLM capabilities into five broad categories: structurization, summarization, translation, knowledge & reasoning, and multi-modal data processing.
 
-![Unable to load image](images/fig2.png)
+<p align="center"><img src="images/fig2.png" alt="Task" width="600"></p>
 
 **Figure 2.** An overview of five common task formulations enabled by LLMs in medicine.
 
 ## Choosing a large language model
 Users should choose an appropriate LLM based on the task characteristics. We categorize these characteristics into four main categories: model interface, data modality, context length, and medical capability.
 
-![Unable to load image](images/fig3.png)
+<p align="center"><img src="images/fig3.png" alt="LLM" width="600"></p>
 
 **Figure 3.** Considerations for choosing an LLM.
 
@@ -42,7 +42,7 @@ A diversity of LLMs have been evaluated for their medical capability. Below, we 
 ## Prompt engineering
 Once a user has formulated a task and selected an appropriate LLM, they must carefully consider the prompt (input content) given to the model. Additionally, users may consider implementing fine-tuning techniques to improve the performance of their model.
 
-![Unable to load image](images/fig4.png)
+<p align="center"><img src="images/fig4.png" alt="PE-FT" width="600"></p>
 
 **Figure 4.** An overview of prompt engineering and fine-tuning techniques.
 
