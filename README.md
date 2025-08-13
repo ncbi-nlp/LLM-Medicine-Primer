@@ -27,6 +27,9 @@ A diversity of LLMs have been evaluated for their medical capability. Below, we 
 
 | LLM        | Weights      | Size         | Interface     | Modality     | Context        | MedQA       |
 |------------|--------------|--------------|---------------|--------------|----------------|-------------|
+| o1-preview | Closed       | NA           | Web, API      | T            | 128k           | 94.9%       |
+| o3-mini    | Closed       | NA           | Web, API      | T            | 200k           | 92.7%       |
+| DeepSeek-R1| Open         | 671B         |Web, API, Local| T            | 128k           | 92.0%       |
 | Med-Gemini | Closed       | NA           | Web, API      | T, I, V, A   | 1M, 2M         | 91.1%       |
 | GPT-4      | Closed       | NA           | Web, API      | T, I         | 8k, 32k, 128k  | 90.2%       |
 | Med-PaLM 2 | Closed       | NA           | API           | T            | 8k             | 86.5%       |
