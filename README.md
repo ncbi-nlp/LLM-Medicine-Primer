@@ -86,7 +86,7 @@ Before exploring the example scripts, we also suggest reviewing the following st
 | <a href="https://colab.research.google.com/drive/1oFJOWmW3M_49zYeRalqNP4jQtIXbQgla?usp=sharing" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open Tutorial In Colab"/></a> | Fine-tuning | Loading and processing the trial matching dataset, preparing the data for fine-tuning GPT models |
 
 ## Acknowledgements
-This work was supported by the Intramural Research Programs of the National Institutes of Health, National Library of Medicine.
+This research was supported by the Intramural Research Program of the National Institutes of Health (NIH). The contributions of the NIH author(s) are considered Works of the United States Government. Q.J. was also supported by the NIH Pathway to Independence Award K99LM014903. The findings and conclusions presented in this paper are those of the author(s) and do not necessarily reflect the views of the NIH or the U.S. Department of Health and Human Services.
 
 ## Disclaimer
 This tutorial shows the results of research conducted in the Division of Intramural Research, NCBI/NLM. The information produced on this website is not intended for direct diagnostic use or medical decision-making without review and oversight by a clinical professional. Individuals should not change their health behavior solely on the basis of information produced on this website. NIH does not independently verify the validity or utility of the information produced by this tutorial. If you have questions about the information produced on this website, please see a health care professional. More information about NCBI's disclaimer policy is available.
