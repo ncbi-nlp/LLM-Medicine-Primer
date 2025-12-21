@@ -25,22 +25,28 @@ A diversity of LLMs have been evaluated for their medical capability. Below, we 
 
 **Table 1.** Characteristics of different LLMs, sorted by the best reported MedQA-USMLE (4 options) score. T: text; I: image; V: video; A: audio.
 
-| LLM        | Weights      | Size         | Interface     | Modality     | Context        | MedQA       |
-|------------|--------------|--------------|---------------|--------------|----------------|-------------|
-| o1-preview | Closed       | NA           | Web, API      | T            | 128k           | 94.9%       |
-| o3-mini    | Closed       | NA           | Web, API      | T            | 200k           | 92.7%       |
-| DeepSeek-R1| Open         | 671B         |Web, API, Local| T            | 128k           | 92.0%       |
-| Med-Gemini | Closed       | NA           | Web, API      | T, I, V, A   | 1M, 2M         | 91.1%       |
-| GPT-4      | Closed       | NA           | Web, API      | T, I         | 8k, 32k, 128k  | 90.2%       |
-| Med-PaLM 2 | Closed       | NA           | API           | T            | 8k             | 86.5%       |
-| Llama 3    | Open         | 8B, 70B, 405B| API, Local    | T            | 8k             | 80.9%       |
-| GPT-3.5    | Closed       | NA           | Web, API      | T            | 4k, 16k        | 68.7%       |
-| Med-PaLM   | Closed       | 540B         | API           | T            | 8k             | 67.6%       |
-| Gemini 1.0 | Closed       | NA           | Web, API      | T, I, V      | 32k            | 67.0%       |
-| Mixtral    | Open         | 8x7B         | API, Local    | T            | 32k            | 64.1%       |
-| Mistral    | Open         | 7B           | API, Local    | T            | 8k, 32k        | 59.6%       |
-| Llama 2    | Open         | 7B, 70B      | API, Local    | T            | 4k             | 47.8%       |
-| Claude 3   | Closed       | NA           | Web, API      | T, I         | 200k           | N/A         |
+| LLM            | Weights | Size                          | Interface        | Modality       | Context         | MedQA   |
+|----------------|---------|-------------------------------|------------------|----------------|-----------------|---------|
+| GPT-5          | Closed  | NA                            | Web, API         | T, I           | 400k            | 95.8%   |
+| o1-preview     | Closed  | NA                            | Web, API         | T              | 128k            | 94.9%   |
+| Gemini 3.0 Pro | Closed  | NA                            | Web, API         | T, I, V, A     | 1M              | 94.6%   |
+| o3-mini        | Closed  | NA                            | Web, API         | T              | 200k            | 92.7%   |
+| Gemini 2.5 Pro | Closed  | NA                            | Web, API         | T, I, V, A     | 1M              | 92.6%   |
+| DeepSeek-R1    | Open    | 671B                          | Web, API, Local  | T              | 128k            | 92.0%   |
+| Claude 4.5     | Closed  | NA                            | Web, API         | T, I           | 200k            | 91.4%   |
+| Med-Gemini     | Closed  | NA                            | Web, API         | T, I, V, A     | 1M, 2M          | 91.1%   |
+| GPT-4          | Closed  | NA                            | Web, API         | T, I           | 8k, 32k, 128k   | 90.2%   |
+| Llama 3.1      | Open    | 8B, 70B, 405B                 | API, Local       | T              | 128k            | 88.2%  |
+| Qwen3          | Open    | 0.6B, 1.7B, 4B, 8B, 14B, 30B, 32B, 235B | Web, API, Local | T      | 32k, 262k       | 87.4%   |
+| Med-PaLM 2     | Closed  | NA                            | API              | T              | 8k              | 86.5%   |
+| Llama 3        | Open    | 8B, 70B, 405B                 | API, Local       | T              | 8k              | 80.9%   |
+| GPT-3.5        | Closed  | NA                            | Web, API         | T              | 4k, 16k         | 68.7%   |
+| Med-PaLM       | Closed  | 540B                          | API              | T              | 8k              | 67.6%   |
+| Gemini 1.0     | Closed  | NA                            | Web, API         | T, I, V        | 32k             | 67.0%   |
+| Mixtral        | Open    | 8x7B                          | API, Local       | T              | 32k             | 64.1%   |
+| Mistral        | Open    | 7B                            | API, Local       | T              | 8k, 32k         | 59.6%   |
+| Llama 2        | Open    | 7B, 70B                       | API, Local       | T              | 4k              | 47.8%   |
+
 
 ## Prompt engineering
 Once a user has formulated a task and selected an appropriate LLM, they must carefully consider the prompt (input content) given to the model. Additionally, users may consider implementing fine-tuning techniques to improve the performance of their model.
