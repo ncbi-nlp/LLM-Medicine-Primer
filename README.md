@@ -1,7 +1,7 @@
 # Entry-level guide to the use of large language models for medical research
 
 ## Introduction
-This tutorial is an extension of concepts and best practices outlined in the paper "Demystifying Large Language Models for Medicine: A Primer". Large language models (LLMs) represent a transformative class of artificial intelligence (AI) tools that can be used for a variety of tasks. Here, we provide example scripts related to a relevant healthcare task - clinical trial matching - and demonstrate important concepts including tokenization, temperature, chain-of-thought prompting, few-shot learning, retrieval-augmented generation (RAG), and data preparation for fine-tuning.
+This tutorial is an extension of concepts and best practices outlined in the paper "Entry-level guide to the use of large language models for medical research". Large language models (LLMs) represent a transformative class of artificial intelligence (AI) tools that can be used for a variety of tasks. Here, we provide example scripts related to a relevant healthcare task - clinical trial matching - and demonstrate important concepts including tokenization, temperature, chain-of-thought prompting, few-shot learning, retrieval-augmented generation (RAG), and data preparation for fine-tuning.
 
 <p align="center"><img src="images/fig1.png" alt="Overview" width="600"></p>
 
