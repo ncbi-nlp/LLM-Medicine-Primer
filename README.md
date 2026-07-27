@@ -1,4 +1,4 @@
-# Entry-level guide to the use of large language models for medical research
+# Tutorial: guidance on the use of large language models for medical research
 
 ## Introduction
 This tutorial is an extension of concepts and best practices outlined in the paper "Entry-level guide to the use of large language models for medical research". Large language models (LLMs) represent a transformative class of artificial intelligence (AI) tools that can be used for a variety of tasks. Here, we provide example scripts related to a relevant healthcare task - clinical trial matching - and demonstrate important concepts including tokenization, temperature, chain-of-thought prompting, few-shot learning, retrieval-augmented generation (RAG), and data preparation for fine-tuning.
@@ -100,11 +100,12 @@ This tutorial shows the results of research conducted in the Division of Intramu
 ## Citation
 If you find our work useful, please cite it by:
 ```bibtex
-@article{jin2024demystifying,
-  title={Demystifying large language models for medicine: A primer},
-  author={Jin, Qiao and Wan, Nicholas and Leaman, Robert and Tian, Shubo and Wang, Zhizheng and Yang, Yifan and Wang, Zifeng and Xiong, Guangzhi and Lai, Po-Ting and Zhu, Qingqing and others},
-  journal={ArXiv},
-  pages={arXiv--2410},
-  year={2024}
+@article{Jin2026LLMMedicalResearch,
+  title     = {Tutorial: Guidance on the Use of Large Language Models for Medical Research},
+  author    = {Jin, Qiao and Wan, Nicholas and Leaman, Robert and Tian, Shubo and Wang, Zhizheng and Yang, Yifan and Wang, Zifeng and Xiong, Guangzhi and Lai, Po-Ting and Zhu, Qingqing and Hou, Benjamin and Sarfo-Gyamfi, Maame and Zhang, Gongbo and Gilson, Aidan and Bhasuran, Balu and He, Zhe and Zhang, Aidong and Sun, Jimeng and Weng, Chunhua and Summers, Ronald M. and Chen, Qingyu and Peng, Yifan and Lu, Zhiyong},
+  journal   = {Nature Protocols},
+  year      = {2026},
+  doi       = {10.1038/s41596-026-01408-z},
+  url       = {https://doi.org/10.1038/s41596-026-01408-z},
 }
 ```
